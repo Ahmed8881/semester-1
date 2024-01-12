@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googlepis.com">
+</head>
+<style>
+    *{
+        padding:0;
+        margin: 0;
+        font-family: 'Poppins', monospace;
+    }
+    ul{
+        list-style: none;
+        background: #8c52ff;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+       
+    }
+    ul li a{
+        display: block;
+        padding: 15px 30px;
+        color: #fff;
+        text-decoration: none;
+    
+    }
+    ul li ul.dropdown{
+        min-width: 100%; /* Set width of the dropdown */
+        background: #8c52ff;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+        display: block; /* Display the dropdown */
+    width: 100%;
+    background: #8c52ff;
+    position: absolute;
+    z-index: 999;
+    
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+</style>
+<body>
+
+    <nav>
+    <div class =#>   <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <ul class="dropdown">
+                <li><a href="#">SSS</a></li>
+                <li><a href="#">SSS</a></li>
+                <li><a href="#">SSS</a></li>
+                <li><a href="#">SSS</a></li>
+            </div>   </ul>
+        
+        </ul>
+    </nav>
+</body>
+</html>
