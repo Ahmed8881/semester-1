@@ -9,7 +9,7 @@ int x= value1;
 value1=100;
 x=20;
 value2=sum();
-cout<<value1<<" "<<value2;
+cout<<value1<<"\t"<<value2;
 sum();
 }
 
