@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 main(){
-  int max=0;
+ 
   
 int cars[5][5] = {{10, 7, 12, 10, 4},
                   {18, 11, 15, 17, 2},
