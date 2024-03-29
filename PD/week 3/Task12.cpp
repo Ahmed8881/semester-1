@@ -4,7 +4,6 @@ main()
 {
 	float n;
 	float w;
-	float nm;
 	float h;
 	cout<<"Number of square meters you can paint: ";
 	cin>> n;
